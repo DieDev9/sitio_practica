@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap">
+    <style>
+        h1{
+          font-family: 'Montserrat', sans-serif;
+          color: rgb(8, 8, 8);
+          text-shadow: 2px 2px 4px #000000;
+          background-color: aliceblue;
+          text-align: center;
+          padding: 20px;
+          
+        }
+        .entrada{
+            border-style: solid;
+            background-color:aliceblue;
+            border-radius: 8px;
+        }
+        div {
+            border-radius: 5px;
+            background-color: aliceblue;
+            padding: 10px;
+            }
+            footer{
+            background-color: aliceblue;
+            text-align: center;
+            padding: 10px;
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <h1>CONTACTO</h1>
+    <p>¡Registrate y dinos que te pareció nuestra sección de noticias!</p>
+    <div>
+    <form>
+        <label for="nombre">Nombre</label><br>
+        <input class="entrada" type="text" required placeholder="nombre"><br>
+        <label for="apellido">Apellidos</label><br>
+        <input class="entrada" type="text" placeholder="apellidos"><br>
+        <label for="residencia">País</label><br>
+        <input class="entrada" type="text" placeholder="país"><br>
+        <label for="telefono">Teléfono</label><br>
+        <input class="entrada" type="number" placeholder="teléfono"><br>
+        <label for="email">Email</label><br>
+        <input class="entrada" type="email" required placeholder="email"><br><br>
+        <label for="comentario">Comentarios:</label><br>
+        <textarea class="entrada" name="comentario" id="comentario" cols="30" rows="5" placeholder="comentarios"></textarea><br><br>
+        <input class="entrada" type="submit" name="enviar">
+    </form>
+</div>
+<footer><em>Diego Fonseca - Universidad Indsutrial de Santander</em></footer>
+</body>
+</html>
