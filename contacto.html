@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACTO</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Montserrat:wght@300&display=swap">
     <style>
         h1{
           font-family: 'Montserrat', sans-serif;
@@ -19,7 +19,7 @@
         .entrada{
             border-style: solid;
             background-color:aliceblue;
-            border-radius: 8px;
+            border-radius: 6px;
         }
         div {
             border-radius: 5px;
@@ -30,31 +30,52 @@
             background-color: aliceblue;
             text-align: center;
             padding: 10px;
+            }
+            ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: aliceblue;
+            
         }
-        
-    
+        li {
+        float: left;
+        }
+        li a {
+        font-family:'Comfortaa', cursive;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
     </style>
 </head>
 <body>
     <h1>CONTACTO</h1>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="galeria.html">GALERIA</a></li>
+    </ul>
     <p>¡Registrate y dinos que te pareció nuestra sección de noticias!</p>
     <div>
     <form>
         <label for="nombre">Nombre</label><br>
-        <input class="entrada" type="text" required placeholder="nombre"><br>
+        <input class="entrada" type="text" required><br>
         <label for="apellido">Apellidos</label><br>
-        <input class="entrada" type="text" placeholder="apellidos"><br>
+        <input class="entrada" type="text"><br>
         <label for="residencia">País</label><br>
-        <input class="entrada" type="text" placeholder="país"><br>
+        <input class="entrada" type="text"><br>
         <label for="telefono">Teléfono</label><br>
-        <input class="entrada" type="number" placeholder="teléfono"><br>
+        <input class="entrada" type="number"><br>
         <label for="email">Email</label><br>
-        <input class="entrada" type="email" required placeholder="email"><br><br>
+        <input class="entrada" type="email" required><br><br>
         <label for="comentario">Comentarios:</label><br>
         <textarea class="entrada" name="comentario" id="comentario" cols="30" rows="5" placeholder="comentarios"></textarea><br><br>
         <input class="entrada" type="submit" name="enviar">
     </form>
 </div>
-<footer><em>Diego Fonseca - Universidad Indsutrial de Santander</em></footer>
+<footer><em>Diego Fonseca - Universidad Industrial de Santander</em></footer>
 </body>
 </html>
